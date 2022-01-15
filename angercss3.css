@@ -1,0 +1,90 @@
+/* anger dumper css file */
+*{
+  margin: 10px;
+  padding: 0;
+ }
+
+#part1 {
+  margin: 10px;
+  padding: 10px;
+  background-color: #000000;
+  color: red;
+  border-radius: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+#part2 {
+  margin: 10px;
+  padding: 10px;
+  padding-bottom:20px;
+  background-color: #000000;
+  color: red;
+  border-radius : 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+#anger1 {
+  background-color: red; /*#4CAF50; /* Green */
+  border: none;
+  color: black;
+  padding: 40px;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 40px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#anger1:hover {
+ /* background-color: darkred; */
+  box-shadow: 3px 2px 22px 1px rgba(100, 200, 50, 0.5) ;
+}
+
+#anger1:active {
+            transform: scale(0.98);
+            /* Scaling button to 0.98 to its original size */
+            box-shadow: 3px 2px 22px 1px rgba(50, 100, 210, 0.7);
+            /* Lowering the shadow */
+}
+
+#angerrefresh1 {
+  background-color: white;
+  border: none;
+  color: plum;
+  padding: 10px;
+  border-radius: 50%;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  display: none;   
+}
+
+#angerrefresh1:hover {
+ /* background-color: darkred; */
+  box-shadow: 3px 2px 22px 1px rgba(100, 200, 50, 0.5) ;
+}
+
+#angerrefresh1:active {
+            transform: scale(0.98);
+            /* Scaling button to 0.98 to its original size */
+            box-shadow: 3px 2px 22px 1px rgba(50, 100, 210, 0.7);
+            /* Lowering the shadow */
+}
+
+#foot {
+  margin: 10px;
+  padding: 10px;
+  padding-bottom:20px;
+  background-color: #000000;
+  color: red;
+  border-radius : 20px;
+  font-size: 20px;
+  text-align: center;
+}
