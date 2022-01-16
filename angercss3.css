@@ -37,6 +37,7 @@
   font-size: 40px;
   margin: 4px 2px;
   cursor: pointer;
+  touch-action: manipulation;
   transition-delay: 0.001s;
 }
 
@@ -50,6 +51,7 @@
             /* Scaling button to 0.98 to its original size */
             box-shadow: 3px 2px 22px 1px rgba(50, 100, 210, 0.7);
             /* Lowering the shadow */
+            
 }
 
 #angerrefresh1 {
